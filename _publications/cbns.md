@@ -10,4 +10,4 @@ citation: 'Chopra, A., <b>Java, A.</b>, Singh, A., Sharma, V., & Raskar, R. (202
 image: "../images/cbns.png"
 ---
 Point clouds are an increasingly ubiquitous input modality and the raw signal can be efficiently processed with recent progress in deep learning. This signal may, often inadvertently, capture sensitive information that can leak semantic and geometric properties of the scene which the data owner does not want to share. The goal of this work is to protect sensitive information when learning from point clouds; by censoring signal before the point cloud is released for downstream tasks. <br>
-This work was done in collaboration with the [MIT Media Lab](https://www.media.mit.edu/)
+<!-- This work was done in collaboration with the [MIT Media Lab](https://www.media.mit.edu/) -->
