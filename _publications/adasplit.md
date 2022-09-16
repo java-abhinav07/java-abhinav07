@@ -10,4 +10,4 @@ citation: 'Chopra, A., Sahu, S. K., Singh, A., <b>Java, A.</b>, Vepakomma, P., S
 image: '../images/adasplit.png'
 ---
 [Split learning](https://splitlearning.mit.edu/) (SL), a recent framework, reduces client compute load by splitting the model training between client and server. This flexibility is extremely useful for low-compute setups but is often achieved at cost of increase in bandwidth consumption and may result in sub-optimal convergence, especially when client data is heterogeneous. In this work, we introduce AdaSplit which enables efficiently scaling SL to low resource scenarios by reducing bandwidth consumption and improving performance across heterogeneous clients. (<i>Under Review</i>)<br>
-This work was done in collaboration with the [MIT Media Lab](https://www.media.mit.edu/)
+<!-- This work was done in collaboration with the [MIT Media Lab](https://www.media.mit.edu/) -->
