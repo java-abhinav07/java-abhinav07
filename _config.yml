@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : abhinav_java
 facebook:
   username               :
   app_id                 :
@@ -107,7 +107,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   # steam            :
   # tumblr           :
-  # twitter          : "replacethistwitterhandle"
+  twitter          : "https://twitter.com/abhinav_java"
   # vine             :
   # weibo            :
   # xing             :
