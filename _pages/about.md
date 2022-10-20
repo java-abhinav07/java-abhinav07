@@ -8,13 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm a research associate at the Media and Data Science Research Labs, Adobe. Broadly, I like to think about problems at the confluence of Deep Learning and Computer Vision with a focus on privacy and content understanding. The larger goal is to be able to contribute a little to making a computer half as smart as a cat.
+I'm a research associate at the Media and Data Science Research Labs, Adobe. Broadly, I like to think about problems at the beautiful confluence of Deep Learning and Computer Vision with a focus on privacy and content understanding. The larger goal is to be able to contribute a little to making a computer half as smart as a cat.
 
-I pursued my bachelor's in Computer Science from Delhi Technological University (Delhi College of Engineering) and graduated in 2022. During my undergrad I was fortunate enough to collaborate with amazing researchers from the Camera Culture Group, MIT Media Lab where I worked on sampling point clouds for deployment of [privacy aware ML](https://arxiv.org/abs/2203.12192) models in sensitive environments. Additionally, I also contributed to the [Split Learning](https://splitlearning.mit.edu/) project. In my junior year, I interned at MDSR, Adobe (India) and worked closely with AEM Forms, where we developed solutions for [one-shot document snippet detection](https://arxiv.org/abs/2209.06584). Prior to that, I also interned with folks at Prof. Ganesh's ML Lab at IIT Bombay and IDfy where I worked on building low-resource [OCR engines](https://github.com/java-abhinav07/formreader) and signature verification service respectively.
+I pursued my bachelor's in Computer Science from Delhi Technological University (Delhi College of Engineering) and graduated in 2022. During my undergrad I was fortunate enough to collaborate with amazing researchers from the Camera Culture Group, MIT Media Lab and intern at MDSR, Lab, Adobe (India). Prior to that, I also interned with folks at Prof. Ganesh's ML Lab at IIT Bombay and IDfy.
 
-<!-- Some of these collaborations resulted in publications and are listed [here](https://java-abhinav07.github.io/publications/) -->
-
-In my (not so) past life, I spent sleepless nights at UAS-DTU, building (and crashing) UAVs with vision capabilities for urban navigation, and soon recognized my inclination towards research.
+In my (not so) past life, I spent sleepless nights at UAS-DTU, building (and crashing) UAVs with vision capabilities for urban navigation, soon recognized my regard to the research process. 
 
 
 > [Slow Science](https://acofacien.org/images/files/BIBLIOTECA/Poliiticas_educacion_superior/SLOW%20SCIENCE%20MANIFESTO.pdf) -- Science (esp. ML) needs to be protected from the rush ignited by the knowledge economy. One of my hobbies is to get papers rejected, and tell myself that science needs time to craft difficult questions and answers, and that the goal of research is to be able ask these questions. 
@@ -22,6 +20,9 @@ In my (not so) past life, I spent sleepless nights at UAS-DTU, building (and cra
 
 News
 ------
+
+  - October 2022 
+    - One Shot Doc Snippet Detection accepted at WACV, 2023 with collaborators at Adobe!
 
  - August 2022 
     - Detect Document Snippets in One Shot! Preprint available on [arxiv](https://arxiv.org/abs/2209.06584) (Adobe, MDSR.)
