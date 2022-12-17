@@ -21,6 +21,10 @@ In my (not so) past life, I spent sleepless nights at UAS-DTU, building (and cra
 News
 ------
 
+  - December 2022 
+    - [Densely Connected Transformer for Single Image Dehazing](https://doi.org/10.1016/j.jvcir.2022.103722): accepted at Journal of Visual Communication and Image Representation.
+
+
   - October 2022 
     - One Shot Doc Snippet Detection accepted at WACV, 2023 with collaborators at Adobe!
 
