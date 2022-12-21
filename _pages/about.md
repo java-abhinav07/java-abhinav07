@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm a research associate at the Media and Data Science Research Labs, Adobe. Broadly, I like to think about problems at the beautiful confluence of Deep Learning and Computer Vision with a focus on privacy and content understanding. The larger goal is to be able to contribute a little to making a computer half as smart as a cat.
+I'm a research associate at the Media and Data Science Research Labs, Adobe. Broadly, I like to think about problems at the confluence of Deep Learning and Computer Vision. At Adobe, I work closely on connecting users to products in a way that enables a personalized and immersive experiences through computer vision. One step in that direction is our work on "Single Click Document Personalized through Search" (WACV 2023) with the AEM Forms team, wherein we built solutions that allow customers to search for complex structures within documents with a single example. In the (not so) distant future, I hope to build scalable and truly personalized data driven products that are private, efficient and fair.
 
 I pursued my bachelor's in Computer Science from Delhi Technological University (Delhi College of Engineering) and graduated in 2022. During my undergrad I was fortunate enough to collaborate with amazing researchers from the Camera Culture Group, MIT Media Lab and intern at MDSR, Lab, Adobe (India). Prior to that, I also interned with folks at Prof. Ganesh's ML Lab at IIT Bombay and IDfy.
 
-In my (not so) past life, I spent sleepless nights at UAS-DTU, building (and crashing) UAVs with vision capabilities for urban navigation, soon recognized my regard to the research process. 
+During my undergrad, you could find me at UAS-DTU, building (and crashing) UAVs with vision capabilities for urban navigation, where I soon recognized my regard to the research process. 
 
 
 > [Slow Science](https://acofacien.org/images/files/BIBLIOTECA/Poliiticas_educacion_superior/SLOW%20SCIENCE%20MANIFESTO.pdf) -- Science (esp. ML) needs to be protected from the rush ignited by the knowledge economy. One of my hobbies is to get papers rejected, and tell myself that science needs time to craft difficult questions and answers, and that the goal of research is to be able ask these questions. 
