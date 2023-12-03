@@ -18,8 +18,7 @@ Note: Please view CV or Google Scholar for a recent set of projects instead of t
 
 
 # Recent News
-
-
+------
 <div style="max-height: 300px; overflow-y: auto;">
 
 <li><a href="https://openreview.net/forum?id=sXYJpfoW1V&referrer=%5Bthe%20profile%20of%20Abhinav%20Java%5D(%2Fprofile%3Fid%3D~Abhinav_Java1)">BIRD (Fair Knowledge Distillation using Student Feedback)</a>: accepted at Efficient Systems for Foundation Models Workshop@ICML2023.
@@ -45,13 +44,11 @@ Note: Please view CV or Google Scholar for a recent set of projects instead of t
     <li>Reached the final phase of <a href="https://indianexpress.com/article/cities/bangalore/iaf-announces-winners-mehar-baba-swarm-drone-competition-7588658/">IAF-Mehar Baba Prize</a> in collaboration with <a href="https://www.adanidefence.com/">Adani Aerospace</a> (the only undergrad team in the top 3), winners of the best comm architecture.</li>
     <li>Worked on the fabrication of the VTOL system for IAF Mehar Baba Competition phase one.</li>
     <li>Joined Team <a href="https://uasdtu.com/">UAS-DTU</a> and began working on <a href="https://indianexpress.com/article/cities/bangalore/iaf-announces-winners-mehar-baba-swarm-drone-competition-7588658/">Indian Air Force (IAF) Mehar Baba Competition</a>.</li>
+
 </div>
 
 
-
-
-
-# Reach out to me
+Reach out to me
 ------
 I'm always happy to connect with people to collaborate, indugle my sci-fi fantasies or argue about football. Feel free to reach out to me via my email :)
 Take a look here if you would like to find out about some of the awesome work we do at a [self-funded research group](https://github.com/The-Learning-Machines)!
