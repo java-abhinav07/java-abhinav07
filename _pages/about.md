@@ -10,6 +10,7 @@ redirect_from:
 
 I'm a Machine Learning Research Engineer II at the Media and Data Science Research Lab, Adobe. My research interests lie in computer vision, and multimodal learning - with the goal of developing truly trustworthy ML systems that are efficient, fair, private, and accessible. I graduated with a BE in Computer Science and Engineering from Delhi College of Engineering (DTU) in 2022 and developed a strong love for research as a result of several meaningful collaborations, and internships through the course of my undergrad studies. I am currently working on multimodal pre-training for complex document understanding and fairness properties of large language models.
 
+Note: Please view CV or Google Scholar for a recent set of projects instead of the publications tab.
 
 
 > [Slow Science](https://acofacien.org/images/files/BIBLIOTECA/Poliiticas_educacion_superior/SLOW%20SCIENCE%20MANIFESTO.pdf) -- Science (esp. ML) needs to be protected from the rush ignited by the knowledge economy. One of my hobbies is to get papers rejected and tell myself that science needs time to craft difficult questions and answers and that the goal of research is to be able to ask these questions. 
