@@ -37,7 +37,7 @@ Note: Please view CV or Google Scholar for a recent set of projects instead of t
   <li>Attended NIPS '21 and presented our work on Benford's Law (<a href="https://ml4physicalsciences.github.io/2021/files/NeurIPS_ML4PS_2021_99.pdf">paper</a>/<a href="https://ml4physicalsciences.github.io/2021/files/NeurIPS_ML4PS_2021_99_poster.png">poster</a>)</li>
   <li>Do Neural Network Parameters also follow Benford's Law? Our work exploring interesting properties of parameter distribution accepted at NIPS'21 <a href="https://ml4physicalsciences.github.io/2021/">ML4Physics</a> workshop!</li>
 <li>Began Research Internship at Adobe, MDSR.</li>
-  <li>Began collaborations with <a href="https://www.media.mit.edu/people/ayushc/overview/">Ayush Chopra</a> at <a href="https://www.media.mit.edu/">Massachusetts Institute of Technology, Media Lab</a> (work on Split Learning, Private CV) 
+  <li>Began collaborations with <a href="https://www.media.mit.edu/people/ayushc/overview/">Ayush Chopra</a>, <a href="https://www.media.mit.edu/">Camera Culture Group (Media Lab), MIT</a> (work on Split Learning, Private CV) 
     <li>Began collaboration with <a href="http://www.da.inf.ethz.ch/people/YannicKilcher/">Yannic Kilcher (ETH Zurich)</a> (Benford's Law and NNs).</li>
     <li>Began internship with <a href="https://www.cse.iitb.ac.in/~ganesh/">Prof. Ganesh</a> at Indian Institute of Technology, Bombay.</li>
     <li>Joined ML Lab at Delhi Technological University, exploring work on Image Dehazing and transformers.</li>
