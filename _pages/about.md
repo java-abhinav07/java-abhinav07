@@ -24,7 +24,7 @@ Note: Please view CV or Google Scholar for a recent set of projects instead of t
 
 <li><a href="https://openreview.net/forum?id=sXYJpfoW1V&referrer=%5Bthe%20profile%20of%20Abhinav%20Java%5D(%2Fprofile%3Fid%3D~Abhinav_Java1)">BIRD (Fair Knowledge Distillation using Student Feedback)</a>: accepted at Efficient Systems for Foundation Models Workshop@ICML2023.
   <li>Oral acceptance of our work on prompting techniques for debiasing LLMs at AAAI Student Abstract, done by interns at MDSR</li>
-<li> Can counterfactuals help us decode more fairly? Check out our most recent <a href="https://arxiv.org/abs/2311.05451">preprint</a> driven my interns at MDSR.</li>
+<li> Can counterfactuals help us decode more fairly? Check out our most recent <a href="https://arxiv.org/abs/2311.05451">preprint</a> driven by interns at MDSR.</li>
 <li> Gave a preplacement talk at DTU, discussing my research research work and interacting with students.</li>
 <li><a href="https://doi.org/10.1016/j.jvcir.2022.103722">Densely Connected Transformer for Single Image Dehazing</a>: accepted at Journal of Visual Communication and Image Representation.</li>
     <li><a href="https://arxiv.org/pdf/2209.06584v1.pdf">One Shot Doc Snippet Detection</a> accepted at WACV, 2023 with collaborators at Adobe.</li>
