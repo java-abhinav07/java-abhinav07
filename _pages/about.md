@@ -26,7 +26,7 @@ I'm a Machine Learning Research Engineer II at the Media and Data Science Resear
 <li> Can counterfactuals help us decode more fairly? Check out our most recent <a href="https://arxiv.org/abs/2311.05451">preprint</a> driven my interns at MDSR.</li>
 <li> Gave a preplacement talk at DTU, discussing my research research work and interacting with students.</li>
 <li><a href="https://doi.org/10.1016/j.jvcir.2022.103722">Densely Connected Transformer for Single Image Dehazing</a>: accepted at Journal of Visual Communication and Image Representation.</li>
-    <li><a href="https://openaccess.thecvf.com/content/WACV2023/html/Java_One-Shot_Doc_Snippet_Detection_Powering_Search_in_Document_Beyond_Text_WACV_2023_paper.html">One Shot Doc Snippet Detection</a> accepted at WACV, 2023 with collaborators at Adobe.</li>
+    <li><a href="https://arxiv.org/pdf/2209.06584v1.pdf">One Shot Doc Snippet Detection</a> accepted at WACV, 2023 with collaborators at Adobe.</li>
     <li>Joined MDSR Labs, Adobe, India.</li>
     <li><a href="https://web.media.mit.edu/~ayushc/CBNS.pdf">Censoring using Noisy Sampling for 3D point clouds</a> accepted at ECCV 2022.</li>
     <li>Completed undergrad!</li>
