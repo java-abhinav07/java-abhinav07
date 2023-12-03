@@ -51,7 +51,7 @@ Note: Please view CV or Google Scholar for a recent set of projects instead of t
 
 
 
-Reach out to me
+# Reach out to me
 ------
 I'm always happy to connect with people to collaborate, indugle my sci-fi fantasies or argue about football. Feel free to reach out to me via my email :)
 Take a look here if you would like to find out about some of the awesome work we do at a [self-funded research group](https://github.com/The-Learning-Machines)!
