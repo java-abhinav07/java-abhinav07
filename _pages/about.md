@@ -8,14 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I'm a research associate at the Media and Data Science Research Labs, Adobe. Broadly, I like to think about problems at the beautiful confluence of Deep Learning and Computer Vision with a focus on privacy and content understanding. The larger goal is to be able to contribute a little to making a computer half as smart as a cat.
-
-I pursued my bachelor's in Computer Science from Delhi Technological University (Delhi College of Engineering) and graduated in 2022. During my undergrad I was fortunate enough to collaborate with amazing researchers from the Camera Culture Group, MIT Media Lab and intern at MDSR, Lab, Adobe (India). Prior to that, I also interned with folks at Prof. Ganesh's ML Lab at IIT Bombay and IDfy.
-
-In my (not so) past life, I spent sleepless nights at UAS-DTU, building (and crashing) UAVs with vision capabilities for urban navigation, soon recognized my regard to the research process. 
+I'm a Machine Learning Research Engineer II at the Media and Data Science Research Lab, Adobe. My research interests lie in computer vision, and multimodal learning - with the goal of developing truly trustworthy ML systems that are efficient, fair, private, and accessible. I graduated with a BE in Computer Science and Engineering from Delhi College of Engineering (DTU) in 2022 and developed a strong love for research as a result of several meaningful collaborations, and internships through the course of my undergrad studies. I am currently working on multimodal pre-training for complex document understanding and fairness properties of large language models.
 
 
-> [Slow Science](https://acofacien.org/images/files/BIBLIOTECA/Poliiticas_educacion_superior/SLOW%20SCIENCE%20MANIFESTO.pdf) -- Science (esp. ML) needs to be protected from the rush ignited by the knowledge economy. One of my hobbies is to get papers rejected, and tell myself that science needs time to craft difficult questions and answers, and that the goal of research is to be able ask these questions. 
+
+
+> [Slow Science](https://acofacien.org/images/files/BIBLIOTECA/Poliiticas_educacion_superior/SLOW%20SCIENCE%20MANIFESTO.pdf) -- Science (esp. ML) needs to be protected from the rush ignited by the knowledge economy. One of my hobbies is to get papers rejected and tell myself that science needs time to craft difficult questions and answers and that the goal of research is to be able to ask these questions. 
 
 
 
