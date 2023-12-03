@@ -12,7 +12,6 @@ I'm a Machine Learning Research Engineer II at the Media and Data Science Resear
 
 
 
-
 > [Slow Science](https://acofacien.org/images/files/BIBLIOTECA/Poliiticas_educacion_superior/SLOW%20SCIENCE%20MANIFESTO.pdf) -- Science (esp. ML) needs to be protected from the rush ignited by the knowledge economy. One of my hobbies is to get papers rejected and tell myself that science needs time to craft difficult questions and answers and that the goal of research is to be able to ask these questions. 
 
 
