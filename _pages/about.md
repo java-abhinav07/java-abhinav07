@@ -20,8 +20,7 @@ Note: Please view CV or Google Scholar for a recent set of projects instead of t
 # Recent News
 ------
 <div style="max-height: 300px; overflow-y: auto;">
-
-<li><a href="https://openreview.net/forum?id=sXYJpfoW1V&referrer=%5Bthe%20profile%20of%20Abhinav%20Java%5D(%2Fprofile%3Fid%3D~Abhinav_Java1)">BIRD (Fair Knowledge Distillation using Student Feedback)</a>: accepted at Efficient Systems for Foundation Models Workshop@ICML2023.
+  <li><a href="https://openreview.net/forum?id=sXYJpfoW1V&referrer=%5Bthe%20profile%20of%20Abhinav%20Java%5D(%2Fprofile%3Fid%3D~Abhinav_Java1)">BIRD (Fair Knowledge Distillation using Student Feedback)</a>: accepted at Efficient Systems for Foundation Models Workshop@ICML2023.
   <li>Oral acceptance of our work on prompting techniques for debiasing LLMs at AAAI Student Abstract, done by interns at MDSR</li>
 <li> Can counterfactuals help us decode more fairly? Check out our most recent <a href="https://arxiv.org/abs/2311.05451">preprint</a> driven by interns at MDSR.</li>
 <li> Gave a preplacement talk at DTU, discussing my research research work and interacting with students.</li>
@@ -43,12 +42,10 @@ Note: Please view CV or Google Scholar for a recent set of projects instead of t
     <li>Completed internship at <a href="https://www.idfy.com/">IDfy</a>, working on a signature matching service with the data science team.</li>
     <li>Reached the final phase of <a href="https://indianexpress.com/article/cities/bangalore/iaf-announces-winners-mehar-baba-swarm-drone-competition-7588658/">IAF-Mehar Baba Prize</a> in collaboration with <a href="https://www.adanidefence.com/">Adani Aerospace</a> (the only undergrad team in the top 3), winners of the best comm architecture.</li>
     <li>Worked on the fabrication of the VTOL system for IAF Mehar Baba Competition phase one.</li>
-    <li>Joined Team <a href="https://uasdtu.com/">UAS-DTU</a> and began working on <a href="https://indianexpress.com/article/cities/bangalore/iaf-announces-winners-mehar-baba-swarm-drone-competition-7588658/">Indian Air Force (IAF) Mehar Baba Competition</a>.</li>
-
-</div>
+    <li>Joined Team <a href="https://uasdtu.com/">UAS-DTU</a> and began working on <a href="https://indianexpress.com/article/cities/bangalore/iaf-announces-winners-mehar-baba-swarm-drone-competition-7588658/">Indian Air Force (IAF) Mehar Baba Competition</a>.</li></div>
 
 
-Reach out to me
+# Reach out to me
 ------
 I'm always happy to connect with people to collaborate, indugle my sci-fi fantasies or argue about football. Feel free to reach out to me via my email :)
 Take a look here if you would like to find out about some of the awesome work we do at a [self-funded research group](https://github.com/The-Learning-Machines)!
