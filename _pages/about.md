@@ -47,4 +47,4 @@ Recent News
     <li>Completed internship at <a href="https://www.idfy.com/">IDfy</a>, working on a signature matching service with the data science team.</li>
     <li>Reached the final phase of <a href="https://indianexpress.com/article/cities/bangalore/iaf-announces-winners-mehar-baba-swarm-drone-competition-7588658/">IAF-Mehar Baba Prize</a> in collaboration with <a href="https://www.adanidefence.com/">Adani Aerospace</a> (the only undergrad team in the top 3), winners of the best comm architecture.</li>
     <li>Worked on the fabrication of the VTOL system for IAF Mehar Baba Competition phase one.</li>
-    <li>Joined Team <a href="https://uasdtu.com/">UAS-DTU</a> and began working on <a href="https://indianexpress.com/article/cities/bangalore/iaf-announces-winners-mehar-baba-swarm-drone-competition-7588658/">Indian Air Force (IAF) Mehar Baba Competition</a>.</li></div>
+    <li>Joined Team <a href="https://uasdtu.com/">UAS-DTU</a> and began working on <a href="https://indianexpress.com/article/cities/bangalore/iaf-announces-winners-mehar-baba-swarm-drone-competition-7588658/">Indian Air Force (IAF) Mehar Baba Competition</a>.</li>
