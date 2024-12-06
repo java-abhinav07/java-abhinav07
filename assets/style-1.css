@@ -19,7 +19,7 @@ body {
 
 /* Left Pane Styling */
 .fixed-posi {
-    position: fixed;
+    position: sticky;
     top: 20px; /* Slightly adjusted from top */
     left: 0;
     width: 250px; /* Fixed width for left pane */
