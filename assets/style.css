@@ -1,85 +1,147 @@
+/* General Resets and Universal Styles */
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light gray for modern aesthetics */
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo Styling */
 .instilogo {
     height: 50px;
     filter: grayscale(20%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.instilogo:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+/* Links */
+a {
+    color: #0077cc; /* Subtle blue for links */
+    text-decoration: none;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 a:hover {
-    /* font-weight: 400; */
-    text-decoration: none;
-    transition-duration: 0.3s;
-    transition-timing-function: linear;
-    /* color: #444; */
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
 }
 
-
+/* Notes */
 .noter {
-    font-size: 9pt;
+    font-size: 0.8rem;
+    color: #666;
 }
 
+/* Tags */
 .tagsep {
     padding: 4px;
+    font-size: 0.9rem;
+    color: #aaa;
 }
 
 .tag {
-    padding-right: 2px;
+    display: inline-block;
+    padding: 4px 6px;
+    background-color: #e9ecef;
+    color: #444;
+    border-radius: 12px;
+    margin-right: 6px;
+    font-size: 0.85rem;
 }
 
+/* Conf Styles */
 .confshort {
     font-weight: 300;
+    font-style: italic;
 }
 
 .conf {
     display: inline-block;
     padding-bottom: 4px;
+    margin-bottom: 6px;
+    border-bottom: 2px solid #ddd;
 }
 
+/* Paper Styling */
 .paper {
-    border-left: 1px solid #ddd;
+    border-left: 4px solid #0077cc;
+    padding-left: 12px;
+    margin-top: 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease;
+}
+
+.paper:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu Links */
+.menulink {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .menulink:hover {
-    color: #111;
+    color: #0056b3;
+    transform: translateY(-2px);
 }
 
+/* Profile Picture */
 .profilepic {
     width: 150px;
-    border-radius: 40%;
-    /* filter: grayscale(100%); */
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.profilepic:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Media Queries */
 @media (min-width: 768px) {
     .fixed-posi {
-        /* width: 50%;
-            margin-left: 50%;
-            min-height:100%; */
         position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        overflow-y: auto;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
     }
 }
 
-@media only screen and (max-width: 900px) {
-    .allstuff {
-        padding-top: 0px !important;
-    }
-
-    .allstuffp {
-        padding-top: 0px !important;
+@media (max-width: 900px) {
+    .allstuff, .allstuffp {
+        padding-top: 0 !important;
     }
 
     .profilepic {
-        width: 90px;
-        border-radius: 40%;
-        padding-top: 0px !important;
-        padding-bottom: 0px !important;
-        /* filter: grayscale(100%); */
+        width: 100px;
+        height: 100px;
     }
 
     .menur {
         padding-top: 18px !important;
     }
 
+    .paper {
+        border-left: 2px solid #0077cc;
+        padding-left: 8px;
+    }
 }
-
-/* .thisauthor {
-          color: #111;
-          text-decoration: underline;
-    } */
