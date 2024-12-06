@@ -1,3 +1,4 @@
+This as well to go with it:
 // Initialize font properties
 const fontname = "Barlow";
 const fontweights = [300, 400]
