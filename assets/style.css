@@ -28,14 +28,28 @@ a:hover {
 .fixed-posi {
     position: sticky;
     top: 20px;
+    max-width: 300px; /* Ensure the sidebar has a fixed width */
+    margin: 0; /* Reset any unnecessary margin */
+    padding: 15px;
+    background-color: #ffffff; /* Optional: Make it distinct */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Optional: Rounded corners for a polished look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Shadow for depth */
 }
 
+/* Ensure the main layout is properly aligned */
+.container {
+    display: flex; /* Flexbox for proper layout alignment */
+    gap: 20px; /* Spacing between sidebar and main content */
+}
+
+/* Sidebar Image Styling */
 .profilepic {
     width: 100%;
-    border-radius: 50%;
-    max-width: 200px;
-    margin: 0 auto;
+    max-width: 150px; /* Adjust the size to fit within the sidebar */
+    margin: 10px auto; /* Center the image within the sidebar */
     display: block;
+    border-radius: 50%;
     border: 3px solid #007bff;
 }
 
