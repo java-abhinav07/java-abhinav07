@@ -1,4 +1,61 @@
 /* General Layout */
+
+/* General Button Styles */
+button, .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0077cc; /* Blue background */
+    color: #fff; /* White text */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background and hover */
+    display: inline-block;
+    text-align: center;
+}
+
+/* Button Hover Effects */
+button:hover, .btn:hover {
+    background-color: #005fa3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+}
+
+/* Focus Effect */
+button:focus, .btn:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.6); /* Custom focus outline */
+}
+
+/* Disabled Buttons */
+button:disabled, .btn:disabled {
+    background-color: #ccc; /* Grey background for disabled state */
+    color: #777; /* Grey text */
+    cursor: not-allowed;
+    transform: none; /* No hover effect on disabled buttons */
+}
+
+/* Specific Button Styles for PDF, etc. */
+.pdf-btn, .etc-btn {
+    background-color: #4CAF50; /* Green background */
+    color: #fff; /* White text */
+    border-radius: 4px;
+}
+
+.pdf-btn:hover, .etc-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Button Icons (for PDF, etc.) */
+.pdf-btn i, .etc-btn i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+/* Focus Effect for PDF and etc. buttons */
+.pdf-btn:focus, .etc-btn:focus {
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.6); /* Custom focus outline with green color */
+}
+
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
