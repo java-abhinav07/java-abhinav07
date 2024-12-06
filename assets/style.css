@@ -1,147 +1,144 @@
-/* General Resets and Universal Styles */
-body {
-    font-family: 'Barlow', sans-serif;
-    font-size: 14px;
-    color: #444;
-    line-height: 1.6;
-    background-color: #f8f9fa; /* Light gray for modern aesthetics */
-    margin: 0;
-    padding: 0;
-}
-
 /* Logo Styling */
 .instilogo {
     height: 50px;
     filter: grayscale(20%);
-    transition: filter 0.3s ease, transform 0.3s ease;
+    transition: filter 0.3s ease;
 }
 
 .instilogo:hover {
     filter: grayscale(0%);
-    transform: scale(1.1);
 }
 
-/* Links */
-a {
-    color: #0077cc; /* Subtle blue for links */
-    text-decoration: none;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
-}
-
+/* Anchor Hover Styling */
 a:hover {
-    color: #0056b3;
-    border-bottom: 2px solid #0056b3;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    color: #0056b3; /* Dark blue for hover effect */
 }
 
-/* Notes */
+/* Notes Text */
 .noter {
-    font-size: 0.8rem;
-    color: #666;
+    font-size: 9pt;
+    color: #333; /* Darker, more readable text color */
 }
 
-/* Tags */
+/* Tag Separator and Styling */
 .tagsep {
     padding: 4px;
-    font-size: 0.9rem;
-    color: #aaa;
+    color: #444; /* Slightly darker text for contrast */
 }
 
 .tag {
-    display: inline-block;
-    padding: 4px 6px;
-    background-color: #e9ecef;
-    color: #444;
-    border-radius: 12px;
-    margin-right: 6px;
-    font-size: 0.85rem;
+    padding-right: 6px;
+    font-size: 10pt;
+    color: #222; /* Darker text */
+    background: #e9ecef; /* Light gray background */
+    border-radius: 4px;
 }
 
-/* Conf Styles */
+/* Conference Styling */
 .confshort {
     font-weight: 300;
-    font-style: italic;
+    color: #222; /* Enhanced contrast */
 }
 
 .conf {
     display: inline-block;
     padding-bottom: 4px;
-    margin-bottom: 6px;
-    border-bottom: 2px solid #ddd;
+    font-weight: 500;
+    font-size: 11pt;
+    color: #111; /* Strong text color */
 }
 
 /* Paper Styling */
 .paper {
-    border-left: 4px solid #0077cc;
-    padding-left: 12px;
-    margin-top: 12px;
-    background-color: #ffffff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
-    border-radius: 4px;
-    transition: box-shadow 0.3s ease;
+    border-left: 2px solid #ddd; /* Slightly thicker border for emphasis */
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
 
-.paper:hover {
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-}
-
-/* Menu Links */
-.menulink {
-    font-size: 1rem;
-    font-weight: 400;
-    color: #555;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
+/* Menu Link Styling */
 .menulink:hover {
-    color: #0056b3;
-    transform: translateY(-2px);
+    color: #0056b3; /* Darker blue for hover */
+    text-decoration: underline;
 }
 
-/* Profile Picture */
+/* Profile Picture Styling */
 .profilepic {
     width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50%; /* Fully circular for a polished look */
+    border: 3px solid #444; /* Dark border for emphasis */
+    transition: transform 0.3s ease, filter 0.3s ease;
+    margin-bottom: 20px; /* Adds spacing below image */
 }
 
 .profilepic:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Subtle zoom effect on hover */
+    filter: grayscale(0%);
 }
 
-/* Responsive Media Queries */
+/* Name and Text Alignment */
+.name {
+    font-size: 1.8rem; /* Larger, clear font for the name */
+    font-weight: bold;
+    color: #111; /* Strong dark color for readability */
+    margin-top: -20px; /* Pulls the name higher */
+    text-align: center; /* Centers the name */
+}
+
+.bio {
+    font-size: 1rem; /* Easy-to-read bio font size */
+    color: #333;
+    text-align: center;
+    margin-top: -10px; /* Pulls the bio closer to the name */
+}
+
+/* Sidebar or Fixed Section */
 @media (min-width: 768px) {
     .fixed-posi {
         position: fixed;
-        top: 0;
-        right: 0;
-        width: 50%;
-        height: 100%;
-        overflow-y: auto;
-        padding: 20px;
-        background-color: #ffffff;
-        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+        top: 20px;
+        max-width: 300px;
+        padding: 10px;
+        background: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
     }
 }
 
-@media (max-width: 900px) {
-    .allstuff, .allstuffp {
+/* Responsive Layout */
+@media only screen and (max-width: 900px) {
+    .allstuff,
+    .allstuffp {
         padding-top: 0 !important;
     }
 
     .profilepic {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        border-radius: 50%;
+        padding: 0 !important;
+    }
+
+    .name {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .bio {
+        font-size: 0.9rem; /* Adjust bio size for smaller screens */
     }
 
     .menur {
         padding-top: 18px !important;
     }
+}
 
-    .paper {
-        border-left: 2px solid #0077cc;
-        padding-left: 8px;
-    }
+/* Subtle Animation for Tags and Conference Blocks */
+.tag, .conf {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tag:hover, .conf:hover {
+    background-color: #0056b3;
+    color: #fff;
 }
