@@ -2,95 +2,139 @@
 .instilogo {
     height: 50px;
     filter: grayscale(20%);
-    transition: filter 0.3s ease;
+    transition: filter 0.3s ease, transform 0.3s ease;
+    display: block;
+    margin: 0 auto; /* Centers the logo */
 }
 
 .instilogo:hover {
     filter: grayscale(0%);
+    transform: scale(1.1); /* Subtle zoom effect */
 }
 
 /* Anchor Hover Styling */
-a:hover {
+a {
+    color: #444;
     text-decoration: none;
-    transition: all 0.3s linear;
-    color: #0056b3; /* Dark blue for hover effect */
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0077cc; /* A modern, aesthetic blue */
+    text-decoration: underline;
 }
 
 /* Notes Text */
 .noter {
     font-size: 9pt;
-    color: #333; /* Darker, more readable text color */
+    color: #555;
+    font-style: italic;
 }
 
 /* Tag Separator and Styling */
 .tagsep {
     padding: 4px;
-    color: #444; /* Slightly darker text for contrast */
+    color: #666;
 }
 
 .tag {
-    padding-right: 6px;
-    font-size: 10pt;
-    color: #222; /* Darker text */
-    background: #e9ecef; /* Light gray background */
-    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 11pt;
+    color: #ffffff;
+    background: #0077cc; /* Vibrant blue */
+    border-radius: 12px; /* Smooth pill-shaped tags */
+    display: inline-block;
+    margin-right: 6px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tag:hover {
+    background-color: #0056b3; /* Darker blue for hover */
+    transform: scale(1.1); /* Subtle hover scale */
 }
 
 /* Conference Styling */
 .confshort {
     font-weight: 300;
-    color: #222; /* Enhanced contrast */
+    color: #333;
 }
 
 .conf {
     display: inline-block;
-    padding-bottom: 4px;
-    font-weight: 500;
-    font-size: 11pt;
-    color: #111; /* Strong text color */
+    padding-bottom: 6px;
+    font-weight: 600;
+    font-size: 12pt;
+    color: #222;
+    margin-bottom: 8px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.conf:hover {
+    color: #0077cc;
+    transform: translateY(-2px); /* Lift on hover */
 }
 
 /* Paper Styling */
 .paper {
-    border-left: 2px solid #ddd; /* Slightly thicker border for emphasis */
-    padding-left: 10px;
-    margin-bottom: 10px;
+    border-left: 3px solid #0077cc;
+    padding-left: 12px;
+    margin-bottom: 15px;
+    background: #f9f9f9; /* Subtle background for separation */
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
 
 /* Menu Link Styling */
+.menulink {
+    color: #333;
+    font-size: 14pt;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
 .menulink:hover {
-    color: #0056b3; /* Darker blue for hover */
+    color: #0056b3; /* Vibrant blue for hover */
     text-decoration: underline;
 }
 
 /* Profile Picture Styling */
 .profilepic {
     width: 150px;
-    border-radius: 50%; /* Fully circular for a polished look */
-    border: 3px solid #444; /* Dark border for emphasis */
-    transition: transform 0.3s ease, filter 0.3s ease;
-    margin-bottom: 20px; /* Adds spacing below image */
+    border-radius: 50%; /* Fully circular for a modern look */
+    border: 5px solid #0077cc; /* Bold accent border */
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto 20px; /* Centers the image and adds spacing below */
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Shadow for depth */
 }
 
 .profilepic:hover {
-    transform: scale(1.05); /* Subtle zoom effect on hover */
+    transform: scale(1.1); /* Subtle zoom */
     filter: grayscale(0%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
-/* Name and Text Alignment */
+/* Name and Bio Styling */
 .name {
-    font-size: 1.8rem; /* Larger, clear font for the name */
+    font-size: 2rem; /* Larger, eye-catching font */
     font-weight: bold;
-    color: #111; /* Strong dark color for readability */
-    margin-top: -20px; /* Pulls the name higher */
-    text-align: center; /* Centers the name */
+    color: #111;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Modern, clean font */
+    text-transform: uppercase;
+    letter-spacing: 1.5px; /* Adds spacing between letters */
 }
 
 .bio {
-    font-size: 1rem; /* Easy-to-read bio font size */
-    color: #333;
+    font-size: 1rem;
+    color: #444;
     text-align: center;
-    margin-top: -10px; /* Pulls the bio closer to the name */
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; /* Clean and easy to read */
+    line-height: 1.6;
 }
 
 /* Sidebar or Fixed Section */
@@ -99,11 +143,11 @@ a:hover {
         position: fixed;
         top: 20px;
         max-width: 300px;
-        padding: 10px;
+        padding: 15px;
         background: #ffffff;
         border: 1px solid #ddd;
-        border-radius: 8px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Stronger shadow for desktop */
     }
 }
 
@@ -115,17 +159,16 @@ a:hover {
     }
 
     .profilepic {
-        width: 90px;
+        width: 100px;
         border-radius: 50%;
-        padding: 0 !important;
     }
 
     .name {
-        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        font-size: 1.5rem;
     }
 
     .bio {
-        font-size: 0.9rem; /* Adjust bio size for smaller screens */
+        font-size: 0.9rem;
     }
 
     .menur {
@@ -135,7 +178,7 @@ a:hover {
 
 /* Subtle Animation for Tags and Conference Blocks */
 .tag, .conf {
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 .tag:hover, .conf:hover {
