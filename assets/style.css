@@ -8,14 +8,14 @@
 
 /* Body */
 body {
-    background-color: #f9f9f9; /* Light background color */
-    color: #333; /* Dark text for contrast */
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Dark text for readability */
     font-size: 16px;
     line-height: 1.5;
     padding: 20px;
 }
 
-/* Left Pane (Fixed on the left side, with slight top margin) */
+/* Left Pane (Fixed on the left side) */
 .left-pane {
     position: fixed;
     top: 20px;
@@ -23,7 +23,7 @@ body {
     width: 250px;
     padding: 20px;
     background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
     border-radius: 8px;
     height: 100%;
 }
@@ -32,9 +32,9 @@ body {
 .profilepic {
     width: 120px;
     height: 120px;
-    border-radius: 50%; /* Circle image */
+    border-radius: 50%; /* Circular image */
     object-fit: cover;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /* Profile Name */
@@ -59,11 +59,12 @@ body {
     color: #333;
     padding: 8px 0;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: color 0.3s ease, padding-left 0.2s ease;
 }
 
 .menu-link:hover {
     color: #0077cc; /* Blue on hover */
+    padding-left: 8px; /* Slight padding for hover effect */
 }
 
 /* Right Content Area */
@@ -72,7 +73,7 @@ body {
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Buttons */
@@ -123,11 +124,6 @@ button:disabled, .btn:disabled {
 /* Button Icons (for PDF, etc.) */
 .pdf-btn i, .etc-btn i {
     margin-right: 8px; /* Space between icon and text */
-}
-
-/* Focus Effect for PDF and etc. buttons */
-.pdf-btn:focus, .etc-btn:focus {
-    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.6); /* Custom focus outline with green color */
 }
 
 /* Link Hover Effects (for links like "noter", etc.) */
@@ -183,8 +179,8 @@ a:hover {
     }
 
     .profilepic {
-        width: 80px; /* Smaller profile image */
-        height: 80px;
+        width: 90px; /* Smaller profile image */
+        height: 90px;
     }
 
     .profile-name {
