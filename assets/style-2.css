@@ -11,7 +11,6 @@ a:hover {
     /* color: #444; */
 }
 
-
 .noter {
     font-size: 9pt;
 }
@@ -49,10 +48,10 @@ a:hover {
 
 @media (min-width: 768px) {
     .fixed-posi {
-        /* width: 50%;
-            margin-left: 50%;
-            min-height:100%; */
         position: fixed;
+        top: 10px; /* Reduced space from the top to prevent cutting of text */
+        padding-top: 20px; /* Adjust padding inside the left pane */
+        height: calc(100vh - 20px); /* Make sure the height accounts for any padding */
     }
 }
 
