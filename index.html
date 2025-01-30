@@ -227,53 +227,6 @@
     <div id="regions_div" style="width: 800px; height: 500px;"></div>
 <script src="https://www.gstatic.com/charts/loader.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>google.charts.load('current', {
-  packages: ['geochart'],
-});
-google.charts.setOnLoadCallback(drawRegionsMap);
-
-function drawRegionsMap(countryData = []) {
-  var data = google.visualization.arrayToDataTable([
-    ['Country', 'Visits'],
-    ...countryData // Dynamic Data
-  ]);
-
-  var options = {
-    colorAxis: { colors: ['#e0f3db', '#0868ac'] },
-    width: 600,  // Adjust width to make it smaller
-    height: 400  // Adjust height to make it smaller
-  };
-
-  var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-  chart.draw(data, options);
-}
-
-// Fetch Visitor's Country and Update Data
-function fetchVisitorCountry() {
-  $.get('https://ip-api.com/json/', function(response) {
-    if (response && response.country) {
-      updateCountryData(response.country);
-    }
-  });
-}
-
-// Simulated Storage (Use Backend for Real Storage)
-let visitCounts = JSON.parse(localStorage.getItem('visitCounts')) || {};
-
-function updateCountryData(country) {
-  visitCounts[country] = (visitCounts[country] || 0) + 1;
-  localStorage.setItem('visitCounts', JSON.stringify(visitCounts));
-
-  let countryArray = Object.entries(visitCounts);
-  drawRegionsMap(countryArray);
-}
-
-// Ensure Chart Resizes on Window Resize
-window.addEventListener('resize', () => drawRegionsMap(Object.entries(visitCounts)));
-
-fetchVisitorCountry();
-</script>
-
 </body>
   <style>
   </style>
