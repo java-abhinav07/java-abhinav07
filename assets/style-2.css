@@ -78,6 +78,19 @@ a:hover {
 
 }
 
+#map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust height if needed */
+}
+
+#regions_div {
+  width: 600px;
+  height: 400px;
+}
+
+
 /* .thisauthor {
           color: #111;
           text-decoration: underline;
